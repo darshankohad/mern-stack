@@ -1,0 +1,58 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+          <style>
+                body{
+                    display: grid;
+                    grid-template-columns: repeat(4,1fr);
+                    grid-template-rows: 100px 150px 150px 100px;
+                    background-color: rgb(236, 249, 54);
+                    gap: 10px;
+                }
+                @media only screen and (max-width:500px) {
+                    body{
+                        background-color: aqua;
+                    }
+                }
+                .div1{
+                      background-color: rgb(255, 17, 0);
+                      grid-column-start: 1; grid-column-end: 5;
+                      grid-row-start: 1; grid-row-end: 2; 
+                     }
+                .div2{
+                      background-color: rgb(255, 17, 0);
+                      grid-column-start: 1; grid-column-end: 2;
+                      grid-row-start: 2; grid-row-end: 5; 
+                     } 
+                .div3{
+                      background-color: rgb(255, 17, 0);
+                      grid-column-start: 2; grid-column-end: 5;
+                      grid-row-start: 2; grid-row-end: 4; 
+                     } 
+                .div4{
+                      background-color: rgb(255, 17, 0);
+                      grid-column-start: 2; grid-column-end: 4;
+                      grid-row-start: 4; grid-row-end: 5; 
+                     }  
+                .div5{
+                      background-color: rgb(255, 17, 0);
+                      grid-column-start: 4; grid-column-end: 5;
+                      grid-row-start:4 ; grid-row-end: 5; 
+                     }                      
+                
+         </style>
+    <body>
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4">
+            <a href="grid.html" style="background-color: black; color: white; border-radius: 10px; font-family: Impact; font-size: 50px; margin-left: 300px;">BACK</a>
+        </div>
+        <div class="div5">
+             <a href="grid2.html" style="background-color: black; color: white; border-radius: 10px; font-family: Impact; font-size: 50px; margin-left: 100px;">Next</a>
+         </div>
+    </body>
+</html>
