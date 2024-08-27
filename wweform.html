@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='info.css'>
+    <script src='main.js'></script>
+</head>
+<style>
+  *{text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+  .h{background-color: bisque;}
+  .c{background-color: red; color: white; margin: 10px; padding: 10px 0 10px 0; border : 20px solid firebrick; border-radius: 10px; font-family: 'Franklin Gothic Medium'; position: sticky; top: 0; width: 95%; box-shadow: 2px 2px 10px 4px black;}
+   h2{color: rgb(230, 255, 9); font-family: Arial, Helvetica, sans-serif}
+   h3{color: white; font-family: Arial, Helvetica, sans-serif ; text-shadow: 2px 2px 5px black;}
+  .button:hover{background-color: blue; color: yellow;}
+   </style>
+<body class="h">
+
+         <h1 class="c"> Welcome To WWE</h1>
+       <fieldset>  
+        <legend>Resiatration Form</legend>
+        <form>
+          <div class="me" style="margin: 20px; box-shadow: 2px 2px 10px 4px black;"> 
+            <img src="John.jpg" alt="John" width="300" height="300" align="left" style="margin: 10px 0 20px 90px;border-radius: 50%; box-shadow: 2px 2px 10px 4px black;"> 
+          <h2 class="f" style="margin-left: 550px;" >1.Applicant Details</h2>
+          
+            <h3 style="margin: 20px;">Full Name</h3>
+            <select>
+                <option value="Mr.">Mr.</option>
+                <option value="Ms.">Ms.</option>
+             </select>
+            <input type="text" width="150" placeholder="Enter Full Name in English" style="width: 20%;;">
+            <input type="text" width="150" placeholder="Enter Full Name in Marathi" style="width: 20%;"><br>
+            <h3>Fathers Name</h3>
+            <select>
+                   <option value="Mr.">Mr.</option
+                   <option value="Ms.">Ms.</option>
+            </select>
+               <input type="text" width="150" placeholder="Enter Full Name in English" style="width: 20%;">
+               <input type="text" width="150" placeholder="Enter Full Name in Marathi" style="width: 20%;"><br>
+            <h3>Applicant Date Of Birth</h3>   
+            <input type="date" width="100" placeholder="Enter Date Of Birth">
+            <input type="text" width="100" placeholder="Enter Age">
+            <input type="text" width="100" placeholder="Occupation"><br><br>
+            </div>
+            <div class="me" style="margin: 20px;">
+          <h2>2.Applicant Address</h2>
+          <textarea name="Address" rows="2" cols="150" placeholder="Enter Address"></textarea><br><br>
+             <input type="text" width="100" placeholder="House Number" style ="margin: 0 50px 0 50px;"></input>
+            <input type="text" width="100" placeholder="Pin Code" style ="margin: 0 50px 0 50px;"></input> 
+            <input type="text" width="100" placeholder="Enter State" style ="margin: 0 50px 0 50px;"></input> 
+            <input type="text" width="100" placeholder="Enter District" style ="margin: 0 50px 0 50px;"></input> <br><br>
+            <input type="text" width="100" placeholder="Enter Taluka" style ="margin: 0 50px 0 50px;"></input> 
+            <input type="text" width="100" placeholder="Enter Mobile Number" style ="margin: 0 50px 0 50px;"></input> 
+            <input type="text" width="100" placeholder="Enter Email ID" style ="margin: 0 50px 0 50px;"></input><br><br>
+           
+            </div>
+            <div class="me" style="margin: 20px;">
+          <h2>Mobile No. And Username</h2>
+            <select>
+                <option value="Select">+91</option>
+                <option value="Select">+89</option>
+                <option value="Select">+50</option>
+                <option value="Select">+107</option>
+                <option value="Select">+7</option>
+            </select>
+            <input type="text" width="100" placeholder="Enter Mobile Number"></input>
+            <input type="button" value="Send OTP"><br><br>
+            <input type="text" width="100" placeholder="PAN Number"></input>
+            <input type="text" width="100" placeholder="Adhar Number"></input>
+            <input type="text" width="100" placeholder="Enter Username"></input><br><br>
+                <input type="text" width="100" placeholder="Enter Password"></input>
+                <input type="text" width="100" placeholder="Confirm Password"></input>
+                <input type="text" width="100" placeholder="Enter Email"></input>
+              <br><br>
+            </div> 
+          
+            <div class="me" style="margin: 20px;">
+            <h2>Proof Of Identity (Any One)</h2>
+            <input type="checkbox" id="proof1"  ">
+            <label for="proof1" style ="margin: 0 50px 0 0;">PAN</label>
+            <input type="checkbox" id="proof2" ">
+            <label for="proof2" style ="margin: 0 50px 0 0;">Aadhar</label>   
+            <input type="checkbox" id="proof3"  ">
+            <label for="proof3" style ="margin: 0 50px 0 0;">Driving Lisence</label> 
+            <input type="checkbox" id="proof4" ">
+            <label for="proof4" style ="margin: 0 50px 0 0;">Voter id</label> 
+            <input type="file" style ="margin: 0 50px 0 50px;">
+         <br><br>
+         </div> 
+         <div class="me" style="margin: 20px;">
+            <h2>Proof Of Address (Any One)</h2>
+            <input type="checkbox" id="proof5">
+            <label for="proof5" style ="margin: 0 50px 0 0;" >Ration Card</label>
+            <input type="checkbox" id="proof6">
+            <label for="proof6" style ="margin: 0 50px 0 0;">Electricity Bill</label>   
+            <input type="checkbox" id="proof7">
+            <label for="proof7" style ="margin: 0 50px 0 0;">Passport</label> 
+            <input type="checkbox" id="proof8">
+            <label for="proof8" style ="margin: 0 50px 0 0;">Voter id</label> 
+         <input type="file"><br><br>
+         </div>  
+
+        </div> 
+        <div class="me" style="margin: 20px;">
+           <h2>Other Information</h2>
+           <input type="text"  id="proof10" placeholder="Height">
+           <input type="text"  id="proof10" placeholder="Weight">
+           <input type="text"  id="proof10" placeholder="Ring Name"><br><br>
+          
+        </div>  
+
+        <div class="flex" style="margin: 20px;">
+          
+        <img src="Raw.png" alt="wwe" width="100" height="100" style ="margin: 20px 0 20px 0"> 
+        <img src="Smack.png" alt="wwe" width="100" height="100" style ="margin: 20px 0 20px 0">
+        <img src="nxt.png" alt="wwe" width="100" height="100" style ="margin: 20px 0 20px 0">
+        <img src="event2.png" alt="wwe" width="150" height="100" style ="margin: 20px 0 20px 0">
+ 
+
+       </div>  
+          
+         <input type="checkbox" id="proof9">
+         <label for="proof9">I Declare That Above Information Submited By me its true and correct to my knowlegde<br>
+        and brief . I hereby agree to be liable for legal consequences for any information found incorrect or false<br>
+        under section 200 of indian penal code 1960.</label><br><br><br>
+
+        <input class="button" type="button" value="Resister" style="background-color: red; border-radius: 50px; width: 200px; height: 50px;  box-shadow: 2px 2px 10px 4px black; font-family: fantasy; border-color: red;">
+
+      </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,21 @@
+*{text-align: center; image-align: center;}
+.me{background-color: rgb(158, 89, 52); border: 1px solid black; border-radius: 10px; margin: 20px; box-shadow: 2px 2px 10px 4px black;}
+h2{color: rgb(206, 227, 17); background-color: black; height: 26px; width: 30%;  margin: 10px 0 20px 400px; padding: 10px; }
+.z{ margin: 10px 0 20px 600px;}
+input:hover{background-color: yellow;}
+label:hover{background-color: yellow;}
+h1:hover{color: black;background-color: yellow; border-color: black; box-shadow: 2px 2px 10px 4px black;}
+h2:hover{color: black;background-color: yellow; box-shadow: 2px 2px 10px 4px black;}
+.flex{background-color: white; display: flex; flex-wrap: wrap;
+    justify-content: space-around; align-items: center; box-shadow: 2px 2px 10px 4px black; border-radius: 10px;}
+
+
+
+
+
+
+
+
+
+
+
